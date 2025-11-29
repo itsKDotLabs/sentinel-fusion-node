@@ -54,3 +54,29 @@ Build a modular, transparent, and extensible intelligence pipeline that demonstr
 * Ability to handle irregular real-world datasets
 * Awareness of SOC detection context
 * Readiness for cleared-sector analytics or DE roles
+
+## 🔎 Current Intelligence Insights (Sample GDELT Window)
+
+The first end-to-end run of Sentinel Fusion Node generated a set of early-warning indicators
+based on negative-tone event clustering across global regions.
+
+### Key Countries Flagged (High Negative Volume + High Negative Ratio)
+
+- **Turkey (TU)** — 116/120 events negative (96.7%), AvgTone −4.73  
+- **Syria (SY)** — 63/65 negative (96.9%), AvgTone −4.63  
+- **Egypt (EG)** — 50/50 negative (100%), AvgTone −5.65  
+- **Sudan (SD)** — 50/50 negative (100%), AvgTone −4.77  
+- **Serbia (RS)** — 34/34 negative (100%), AvgTone −4.12  
+- **Pakistan (PK)** — 29/29 negative (100%), AvgTone −3.05  
+- **South Africa (ZA)** — 43/46 negative (~93%), AvgTone −2.93  
+
+These countries exhibit sustained negative sentiment in global reporting during this analysis window,
+suggesting patterns consistent with:
+
+- political unrest  
+- conflict activity  
+- governance instability  
+- civil demonstrations  
+
+This represents the first automated **Sentinel Fusion Alert**, demonstrating the platform’s ability
+to convert raw OSINT data into structured, SOC-ready intelligence signals.
